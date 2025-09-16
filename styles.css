@@ -1,0 +1,112 @@
+body {
+    font-family: 'Indie Flower', cursive; 
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cuadro para la tarjeta */
+.postcard {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* encabezado de la terjeta*/
+.postcard-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*centrar titulo */
+.title-container {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+.postcard-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.postcard-header img {
+    width: 70px;
+    height: auto;
+}
+
+/* cuerpo de la tarjeta */
+.postcard-body {
+    display: flex;
+    flex-grow: 1;
+}
+
+.postcard-left {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.postcard-right {
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* entrada */
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 5px 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1em;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 80px;
+    resize: none;
+}
+
+/*  botón */
+.postcard-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.postcard-footer button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.postcard-footer button:hover {
+    background-color: #ccc;
+}
