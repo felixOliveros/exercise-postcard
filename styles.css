@@ -1,5 +1,6 @@
+/* Forma de la pagina */
 body {
-    font-family: 'Indie Flower', cursive; 
+    font-family: 'Indie Flower', cursive;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -9,12 +10,12 @@ body {
     padding: 20px;
 }
 
-/* Cuadro para la tarjeta */
+/* Forma de la Tarjeta */
 .postcard {
     width: 500px;
     height: 500px;
     background-color: white;
-    border: 1px solid #ddd;
+    border: 3px solid #444; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -22,17 +23,17 @@ body {
     padding: 20px;
 }
 
-/* encabezado de la terjeta*/
+/* Encabezado */
 .postcard-header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-/*centrar titulo */
+/* Titulo Centrado */
 .title-container {
     flex-grow: 1; 
-    text-align: center; 
+    text-align: center;
 }
 
 .postcard-header h1 {
@@ -46,7 +47,7 @@ body {
     height: auto;
 }
 
-/* cuerpo de la tarjeta */
+/* Cuerpo para la tarjeta */
 .postcard-body {
     display: flex;
     flex-grow: 1;
@@ -66,7 +67,7 @@ body {
     justify-content: space-between;
 }
 
-/* entrada */
+/* Estilo de entrada */
 .input-group {
     margin-bottom: 10px;
 }
@@ -87,7 +88,7 @@ body {
     resize: none;
 }
 
-/*  botón */
+/* Pie de página*/
 .postcard-footer {
     display: flex;
     justify-content: center;
@@ -95,6 +96,7 @@ body {
     padding-top: 20px;
 }
 
+/*Boton*/
 .postcard-footer button {
     background-color: #ddd;
     border: none;
